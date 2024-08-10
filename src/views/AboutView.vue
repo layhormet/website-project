@@ -135,6 +135,7 @@
             <div class="card-content">
               <h4 class="card-title">Mavy Prestly</h4>
               <p>Chief Executive Officer</p>
+              
             </div>
           </div>
         </div>
