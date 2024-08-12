@@ -1,18 +1,14 @@
 <template>
-  <div class="contact us">
-    <NavBar/>
-    <h1>This is an contact us page!</h1>
-  </div>
+  <NavBar />
+  
 </template>
 <script>
 // @ is an alias to /src
-import NavBar from '@/components/NavBar.vue';
+import NavBar from "@/components/NavBar.vue";
 export default {
   components: {
-    NavBar
-  }
-}
+    NavBar,
+  },
+};
 </script>
-<style>
-
-</style>
+<style></style>

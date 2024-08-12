@@ -17,6 +17,26 @@
         <li><router-link to="/">Home</router-link></li>
         <li><router-link to="/about">About Us</router-link></li>
         <li><router-link to="/service">Service</router-link></li>
+        <!-- <li>
+          <div class="dropdown">
+            <a class="nav-link dropdown-toggle" href="" id="serviceDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Service
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="serviceDropdown">
+              <li><router-link to="/service"></router-link></li>
+              <li><a class="dropdown-item" href="#">Card</a></li>
+              <li><a class="dropdown-item" href="#">Micro & Small Loan</a></li>
+              <li><a class="dropdown-item" href="#">Nano Loan</a></li>
+              <li><a class="dropdown-item" href="#">SME Loan</a></li>
+              <li><a class="dropdown-item" href="#">Commercial Loan</a></li>
+              <li><a class="dropdown-item" href="#">Housing Loan</a></li>
+              <li><a class="dropdown-item" href="#">Leasing</a></li>
+              <li><a class="dropdown-item" href="#">Remittance</a></li>
+              <li><a class="dropdown-item" href="#">Current Account</a></li>
+              <li><a class="dropdown-item" href="#">Fixed Deposit</a></li>
+            </ul>
+          </div>
+        </li> -->
         <li><router-link to="/LSWallet">LS Wallet</router-link></li>
         <li><router-link to="/SelfBanking">Self Banking</router-link></li>
         <li><router-link to="/promotion">Promotion</router-link></li>
@@ -59,7 +79,6 @@ nav a {
 nav a.router-link-active {
   font-weight: 2px;
   color: #3B53A4;
-
 }
 
 ul {
@@ -73,5 +92,10 @@ li {
 
 a {
   color: black;
+}
+
+.dropdown-menu {
+  min-width: 200px;
+  background-color: #3B53A4;
 }
 </style>
