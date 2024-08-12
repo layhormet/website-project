@@ -20,7 +20,7 @@
             <img src="@/assets/image/image_2.png" alt="History 2" />
           </div>
         </div>
-        <div class="grid-container-right">
+        <div class="history_right">
           <div class="grid-item image_3">
             <img src="@/assets/image/image_3.png" alt="History 3" />
           </div>
@@ -117,7 +117,7 @@
       </div>
       <div class="board_director">
         <div class="grid-item board_left">
-          <h4 class="board_left_title">Meet our Board of Directors</h4>
+          <h1 class="board_left_title">Meet our Board of Directors</h1>
           <a class="view_members"
             ><img src="@/assets/image/seeMembers.png" alt="view_member" /> See
             all members</a
@@ -129,27 +129,478 @@
         </div>
         <div class="grid-item board_right">
           <div class="card">
-            <div class="card-image">
-              <img class="activator" src="@/assets/image/mavy.png" alt="mavy" />
-            </div>
+            <img class="activator" src="@/assets/image/mavy.png" alt="mavy" />
             <div class="card-content">
               <h4 class="card-title">Mavy Prestly</h4>
               <p>Chief Executive Officer</p>
-              
+              <hr />
+            </div>
+            <div class="social">
+              <a href="#"
+                ><img src="@/assets/image/facebook.png" alt="facebook"
+              /></a>
+              <a href="#"
+                ><img src="@/assets/image/linkedin.png" alt="linkedIn"
+              /></a>
+              <a href="#"
+                ><img src="@/assets/image/telegram.png" alt="telegram"
+              /></a>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="activator"
+              src="@/assets/image/chrisopherLue.png"
+              alt="ChrisopherLue"
+            />
+            <div class="card-content">
+              <h4 class="card-title">Chrisopher Lue</h4>
+              <p>Deputy Chief Executive Officer</p>
+              <hr />
+            </div>
+            <div class="social">
+              <a href="#"
+                ><img src="@/assets/image/facebook.png" alt="facebook"
+              /></a>
+              <a href="#"
+                ><img src="@/assets/image/linkedin.png" alt="linkedIn"
+              /></a>
+              <a href="#"
+                ><img src="@/assets/image/telegram.png" alt="telegram"
+              /></a>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="activator"
+              src="@/assets/image/JimmyKie.png"
+              alt="Jimmy Kie"
+            />
+            <div class="card-content">
+              <h4 class="card-title">Jimmy Kie</h4>
+              <p>Chief Executive Officer</p>
+              <hr />
+            </div>
+            <div class="social">
+              <a href="#"
+                ><img src="@/assets/image/facebook.png" alt="facebook"
+              /></a>
+              <a href="#"
+                ><img src="@/assets/image/linkedin.png" alt="linkedIn"
+              /></a>
+              <a href="#"
+                ><img src="@/assets/image/telegram.png" alt="telegram"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="management_team">
+        <h1 class="management_title">Our Senior Management</h1>
+        <div class="management_info">
+          <div class="team_manage1">
+            <div class="card_manage1">
+              <div class="team_manage1_top">
+                <img
+                  class="team_manage1_img"
+                  src="@/assets/image/mavy.png"
+                  alt="MichaelBrown"
+                />
+                <div class="team_manage1_info">
+                  <h6>Michael Brown</h6>
+                  <p>Chief Financial Officer</p>
+                </div>
+                <div class="team_detail">
+                  <img src="@/assets/image/row_up.png" alt="row_up" />
+                </div>
+              </div>
+              <div class="team_manage1_mid">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Officiis ullam quas aspernatur voluptates qui aperiam tempora
+                  nam debitis tenetur, consectetur nisi, labore eius excepturi
+                  pariatur ipsa repellendus. In, harum eos.
+                </p>
+              </div>
+              <hr />
+              <div class="team_manage1_bot">
+                <div class="social">
+                  <a href="#"
+                    ><img src="@/assets/image/facebook.png" alt="facebook"
+                  /></a>
+                  <a href="#"
+                    ><img src="@/assets/image/linkedin.png" alt="linkedIn"
+                  /></a>
+                  <a href="#"
+                    ><img src="@/assets/image/telegram.png" alt="telegram"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="card_manage1">
+              <div class="team_manage1_top">
+                <img
+                  class="team_manage1_img"
+                  src="@/assets/image/mavy.png"
+                  alt="MichaelBrown"
+                />
+                <div class="team_manage1_info">
+                  <h6>Michael Brown</h6>
+                  <p>Chief Financial Officer</p>
+                </div>
+                <div class="team_detail">
+                  <img src="@/assets/image/row_up.png" alt="row_up" />
+                </div>
+              </div>
+              <div class="team_manage1_mid">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Officiis ullam quas aspernatur voluptates qui aperiam tempora
+                  nam debitis tenetur, consectetur nisi, labore eius excepturi
+                  pariatur ipsa repellendus. In, harum eos.
+                </p>
+              </div>
+              <hr />
+              <div class="team_manage1_bot">
+                <div class="social">
+                  <a href="#"
+                    ><img src="@/assets/image/facebook.png" alt="facebook"
+                  /></a>
+                  <a href="#"
+                    ><img src="@/assets/image/linkedin.png" alt="linkedIn"
+                  /></a>
+                  <a href="#"
+                    ><img src="@/assets/image/telegram.png" alt="telegram"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="card_manage1">
+              <div class="team_manage1_top">
+                <img
+                  class="team_manage1_img"
+                  src="@/assets/image/mavy.png"
+                  alt="MichaelBrown"
+                />
+                <div class="team_manage1_info">
+                  <h6>Michael Brown</h6>
+                  <p>Chief Financial Officer</p>
+                </div>
+                <div class="team_detail">
+                  <img src="@/assets/image/row_up.png" alt="row_up" />
+                </div>
+              </div>
+              <div class="team_manage1_mid">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Officiis ullam quas aspernatur voluptates qui aperiam tempora
+                  nam debitis tenetur, consectetur nisi, labore eius excepturi
+                  pariatur ipsa repellendus. In, harum eos.
+                </p>
+              </div>
+              <hr />
+              <div class="team_manage1_bot">
+                <div class="social">
+                  <a href="#"
+                    ><img src="@/assets/image/facebook.png" alt="facebook"
+                  /></a>
+                  <a href="#"
+                    ><img src="@/assets/image/linkedin.png" alt="linkedIn"
+                  /></a>
+                  <a href="#"
+                    ><img src="@/assets/image/telegram.png" alt="telegram"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="team_manage2">
+            <div class="card_manage1">
+              <div class="team_manage1_top">
+                <img
+                  class="team_manage1_img"
+                  src="@/assets/image/mavy.png"
+                  alt="MichaelBrown"
+                />
+                <div class="team_manage1_info">
+                  <h6>Michael Brown</h6>
+                  <p>Chief Financial Officer</p>
+                </div>
+                <div class="team_detail">
+                  <img src="@/assets/image/row_up.png" alt="row_up" />
+                </div>
+              </div>
+              <div class="team_manage1_mid">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Officiis ullam quas aspernatur voluptates qui aperiam tempora
+                  nam debitis tenetur, consectetur nisi, labore eius excepturi
+                  pariatur ipsa repellendus. In, harum eos.
+                </p>
+              </div>
+              <hr />
+              <div class="team_manage1_bot">
+                <div class="social">
+                  <a href="#"
+                    ><img src="@/assets/image/facebook.png" alt="facebook"
+                  /></a>
+                  <a href="#"
+                    ><img src="@/assets/image/linkedin.png" alt="linkedIn"
+                  /></a>
+                  <a href="#"
+                    ><img src="@/assets/image/telegram.png" alt="telegram"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="card_manage1">
+              <div class="team_manage1_top">
+                <img
+                  class="team_manage1_img"
+                  src="@/assets/image/mavy.png"
+                  alt="MichaelBrown"
+                />
+                <div class="team_manage1_info">
+                  <h6>Michael Brown</h6>
+                  <p>Chief Financial Officer</p>
+                </div>
+                <div class="team_detail">
+                  <img src="@/assets/image/row_up.png" alt="row_up" />
+                </div>
+              </div>
+              <div class="team_manage1_mid">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Officiis ullam quas aspernatur voluptates qui aperiam tempora
+                  nam debitis tenetur, consectetur nisi, labore eius excepturi
+                  pariatur ipsa repellendus. In, harum eos.
+                </p>
+              </div>
+              <hr />
+              <div class="team_manage1_bot">
+                <div class="social">
+                  <a href="#"
+                    ><img src="@/assets/image/facebook.png" alt="facebook"
+                  /></a>
+                  <a href="#"
+                    ><img src="@/assets/image/linkedin.png" alt="linkedIn"
+                  /></a>
+                  <a href="#"
+                    ><img src="@/assets/image/telegram.png" alt="telegram"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="card_manage1">
+              <div class="team_manage1_top">
+                <img
+                  class="team_manage1_img"
+                  src="@/assets/image/mavy.png"
+                  alt="MichaelBrown"
+                />
+                <div class="team_manage1_info">
+                  <h6>Michael Brown</h6>
+                  <p>Chief Financial Officer</p>
+                </div>
+                <div class="team_detail">
+                  <img src="@/assets/image/row_up.png" alt="row_up" />
+                </div>
+              </div>
+              <div class="team_manage1_mid">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Officiis ullam quas aspernatur voluptates qui aperiam tempora
+                  nam debitis tenetur, consectetur nisi, labore eius excepturi
+                  pariatur ipsa repellendus. In, harum eos.
+                </p>
+              </div>
+              <hr />
+              <div class="team_manage1_bot">
+                <div class="social">
+                  <a href="#"
+                    ><img src="@/assets/image/facebook.png" alt="facebook"
+                  /></a>
+                  <a href="#"
+                    ><img src="@/assets/image/linkedin.png" alt="linkedIn"
+                  /></a>
+                  <a href="#"
+                    ><img src="@/assets/image/telegram.png" alt="telegram"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="team_manage3">
+            <div class="card_manage1">
+              <div class="team_manage1_top">
+                <img
+                  class="team_manage1_img"
+                  src="@/assets/image/mavy.png"
+                  alt="MichaelBrown"
+                />
+                <div class="team_manage1_info">
+                  <h6>Michael Brown</h6>
+                  <p>Chief Financial Officer</p>
+                </div>
+                <div class="team_detail">
+                  <img src="@/assets/image/row_up.png" alt="row_up" />
+                </div>
+              </div>
+              <div class="team_manage1_mid">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Officiis ullam quas aspernatur voluptates qui aperiam tempora
+                  nam debitis tenetur, consectetur nisi, labore eius excepturi
+                  pariatur ipsa repellendus. In, harum eos.
+                </p>
+              </div>
+              <hr />
+              <div class="team_manage1_bot">
+                <div class="social">
+                  <a href="#"
+                    ><img src="@/assets/image/facebook.png" alt="facebook"
+                  /></a>
+                  <a href="#"
+                    ><img src="@/assets/image/linkedin.png" alt="linkedIn"
+                  /></a>
+                  <a href="#"
+                    ><img src="@/assets/image/telegram.png" alt="telegram"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="card_manage1">
+              <div class="team_manage1_top">
+                <img
+                  class="team_manage1_img"
+                  src="@/assets/image/mavy.png"
+                  alt="MichaelBrown"
+                />
+                <div class="team_manage1_info">
+                  <h6>Michael Brown</h6>
+                  <p>Chief Financial Officer</p>
+                </div>
+                <div class="team_detail">
+                  <img src="@/assets/image/row_up.png" alt="row_up" />
+                </div>
+              </div>
+              <div class="team_manage1_mid">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Officiis ullam quas aspernatur voluptates qui aperiam tempora
+                  nam debitis tenetur, consectetur nisi, labore eius excepturi
+                  pariatur ipsa repellendus. In, harum eos.
+                </p>
+              </div>
+              <hr />
+              <div class="team_manage1_bot">
+                <div class="social">
+                  <a href="#"
+                    ><img src="@/assets/image/facebook.png" alt="facebook"
+                  /></a>
+                  <a href="#"
+                    ><img src="@/assets/image/linkedin.png" alt="linkedIn"
+                  /></a>
+                  <a href="#"
+                    ><img src="@/assets/image/telegram.png" alt="telegram"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="card_manage1">
+              <div class="team_manage1_top">
+                <img
+                  class="team_manage1_img"
+                  src="@/assets/image/mavy.png"
+                  alt="MichaelBrown"
+                />
+                <div class="team_manage1_info">
+                  <h6>Michael Brown</h6>
+                  <p>Chief Financial Officer</p>
+                </div>
+                <div class="team_detail">
+                  <img src="@/assets/image/row_up.png" alt="row_up" />
+                </div>
+              </div>
+              <div class="team_manage1_mid">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Officiis ullam quas aspernatur voluptates qui aperiam tempora
+                  nam debitis tenetur, consectetur nisi, labore eius excepturi
+                  pariatur ipsa repellendus. In, harum eos.
+                </p>
+              </div>
+              <hr />
+              <div class="team_manage1_bot">
+                <div class="social">
+                  <a href="#"
+                    ><img src="@/assets/image/facebook.png" alt="facebook"
+                  /></a>
+                  <a href="#"
+                    ><img src="@/assets/image/linkedin.png" alt="linkedIn"
+                  /></a>
+                  <a href="#"
+                    ><img src="@/assets/image/telegram.png" alt="telegram"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="annual_Reports">
+        <div class="annual_Reports_top">
+          <h1>Annual Reports</h1>
+          <p class="report_text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
+            consectetur voluptatibus, quidem quo eveniet molestiae
+            necessitatibus itaque quas. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Eius, earum! Perferendis saepe labore veritatis
+            aliquid iste! Nam quidem labore ducimus reprehenderit quia officiis
+            perferendis nihil delectus. Iusto itaque omnis facilis!
+          </p>
+        </div>
+        <div class="annual_Reports_mid">
+          <div class="card_annual">
+            <div class="annual_img">
+              <img src="@/assets/image/report1.png" alt="report1" />
+            </div>
+            <div class="annual_info">
+              <h6>Annual Report 2022</h6>
+            </div>
+          </div>
+          <div class="card_annual">
+            <div class="annual_img">
+              <img src="@/assets/image/report2.png" alt="report2" />
+            </div>
+            <div class="annual_info">
+              <h6>Annual Report 2023</h6>
+            </div>
+          </div>
+          <div class="card_annual">
+            <div class="annual_img">
+              <img src="@/assets/image/report3.png" alt="report3" />
+            </div>
+            <div class="annual_info">
+              <h6>Annual Report 2024</h6>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+  <Footer></Footer>
 </template>
 
 <script>
 import NavBar from "@/components/NavBar.vue";
+import Footer from "@/components/FooTer.vue";
 export default {
   name: "AboutView",
   components: {
     NavBar,
+    Footer
   },
 };
 </script>
@@ -184,7 +635,7 @@ export default {
   grid-template-rows: 2fr;
   gap: 1rem;
 }
-.grid-container-right {
+.history_right {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: 2fr;
@@ -230,83 +681,101 @@ export default {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   width: 100%;
-  margin-top: 60px;
-  /* background-color: grey; */
+  margin-top: 5%;
   gap: 1rem;
 }
 .board_left {
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: #000000;
-  width: 80%;
+  width: 90%;
   border-radius: 0 50px 50px 0;
-  height: 350px;
-  grid-template-columns: repeat(1, 1fr);
+  height: 450px;
+  padding: 4rem;
   gap: 1rem;
 }
 .board_left_title {
-  margin-left: 30px;
+  margin-left: 5px;
   width: 190px;
   display: flex;
   justify-content: center;
-  align-items: center;
-  text-align: center;
   color: white;
 }
 .view_members {
-  margin-left: 30px;
+  cursor: pointer;
   color: white;
-  /* gap: 20px; */
+}
+.view_members img {
+  width: 35px;
+}
+.slide img {
+  margin-left: 5px;
+  width: 30px;
+  cursor: pointer;
+}
+.slide img {
+  margin-bottom: 30px;
 }
 .board_right {
-  display: grid;
+  display: flex;
   margin-left: -50%;
-  margin-top: 25px;
-  height: 300px;
+  margin-top: 50px;
+  height: 350px;
+  width: auto;
+  overflow-x: scroll;
   border-left: 1px solid white;
-  grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
 }
-.card{
+
+.board_right::-webkit-scrollbar {
+  display: none;
+}
+
+.card {
   display: flex;
   flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
   margin: 0;
-  margin-left: -30px;
-  height: 300px;
-  width: 220px;
+  padding: 20px;
+  height: 350px;
+  width: 280px;
+  flex-shrink: 0;
 }
-.card-image{
-  margin-left:-70%;
-  margin-top: -70%;
-  border-radius: 40px;
-  width: 220px;
-  height: 180px;
-}
-.card-image .activator{
-  border-radius: 10px;
-  width: 86%;
-  height: 100%;
 
+.card > img {
+  width: 260px;
+  height: 190px;
 }
-.card-content{
+
+.card-content {
   display: flex;
   text-align: center;
   flex-direction: column;
-  margin-left: -60%;  
-  margin-top: 20px;
+  margin-top: 5px;
 }
-.card-title{
+
+.card-title {
   font-size: 18px;
   text-align: center;
   align-items: center;
 }
-.view_members img,
-.slide img {
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.social a img {
   width: 30px;
+  height: 32px;
 }
-.slide img {
-  margin-left: 30px;
-  margin-bottom: 30px;
-}
+
 .read-article {
   color: white;
   padding: 0.2rem;
@@ -339,5 +808,118 @@ export default {
 .image_4 > img {
   width: 450px;
   height: 300px;
+}
+/* management_team */
+.management_team {
+  margin-top: 10%;
+}
+.management_title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.management_info {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  align-items: center;
+  justify-items: center;
+  transition: transform 0.2s ease-in-out;
+  transform: translateY(5%);
+}
+.team_manage1,
+.team_manage2,
+.team_manage3 {
+  display: grid;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease-in-out;
+  height: 500px;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  width: 300px;
+}
+.card_manage1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+  height: 400px;
+  width: 300px;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #f2f2f2;
+}
+.team_manage1_top {
+  display: flex;
+  justify-content: space-between;
+}
+.team_manage1_top > img {
+  display: flex;
+  width: 50px;
+  border: 1px solid white;
+  border-radius: 100%;
+  height: 52px;
+}
+.team_detail {
+  cursor: pointer;
+}
+.team_manage1_info {
+  display: flex;
+  flex-direction: column;
+}
+.team_manage1_mid > p {
+  height: 170px;
+}
+.team_manage1_bot > .social {
+  display: flex;
+  justify-content: space-evenly;
+}
+.annual_Reports {
+  margin-top: 15%;
+  display: flex;
+  flex-direction: column;
+}
+.annual_Reports_top {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.report_text{
+  width: 60%;
+}
+.annual_Reports_mid{
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  height: 600px;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  padding: 20px;
+  margin-bottom: 20px;
+  
+}
+.card_annual{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  /* border-radius: 10px; */
+  width: 350px;
+  align-items: center;
+
+}
+.card_annual > .annual_img > img{
+  width: 100%;
+  height: 500px;
+}
+.annual_info{
+  margin-top: 20px;
 }
 </style>
