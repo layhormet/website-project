@@ -50,6 +50,7 @@ const routes = [
     component: ContactUsView
 
   },
+  
 ]
 
 const router = createRouter({

@@ -119,6 +119,8 @@ export default {
 
 .footer-column ul li {
   margin-bottom: 8px;
+
+  
 }
 
 .footer-column ul li a {
@@ -150,9 +152,9 @@ export default {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: white;
-  color: blue;
+  background: linear-gradient(180deg, #37BBFE 0%, #007DBB 100%);
+  color: white;
   margin-right: 10px;
-  transition: background-color 0.3s ease;
+  
 }
 </style>
