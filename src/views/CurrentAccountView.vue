@@ -4,7 +4,10 @@
     <div class="account-img">
       <div class="all-current-title" style="display: flex">
         <div class="current-title">
-          <h1>Meet the bank <br> of the future</h1>
+          <h1>
+            Meet the bank <br />
+            of the future
+          </h1>
         </div>
         <div class="account-info">
           <p>
@@ -12,13 +15,30 @@
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut .
           </p>
-          <button type="button" style="background-color:  #3b53a4; border: none; border-radius: 30px; color: white; padding: 5px;">Get Started</button>
+          <button
+            type="button"
+            style="
+              background-color: #3b53a4;
+              border: none;
+              border-radius: 30px;
+              color: white;
+              width: 150px;
+              padding: 10px;
+            "
+          >
+            Get Started
+          </button>
         </div>
       </div>
 
       <div
         class="manage"
-        style="display: flex; flex-direction: column; align-items: end; margin-top: 50px;"
+        style="
+          display: flex;
+          flex-direction: column;
+          align-items: end;
+          margin-top: 50px;
+        "
       >
         <h1>99%</h1>
         <p>Customer satisfation</p>
@@ -33,7 +53,7 @@
       <div class="a-title">
         <h1>Browse our set of banking <br />services offering</h1>
       </div>
-      <div class="a-about" style="display: flex; margin-top: 50px;">
+      <div class="a-about" style="display: flex; margin-top: 50px">
         <div class="a-title">
           <h2>Current Account</h2>
           <p>
@@ -42,7 +62,7 @@
             ad odit fugit voluptates. Labore quos eos natus reiciendis placeat.
           </p>
         </div>
-        <div class="a-img" style="margin-right: 50px;">
+        <div class="a-img" style="margin-right: 50px">
           <img src="../assets/image/current-img.png" alt="" />
         </div>
       </div>
@@ -68,17 +88,23 @@ export default {
 <style>
 .account-img {
   background-image: url("@/assets/image/bg-current.png");
-  width: 208vh;
-  height: 890px;
-  background-size: cover;
+  margin-top: 74px;
+  height: 640px;
+  box-shadow: inset 0 0 285px rgb(0, 0, 0);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   padding: 10% 5%;
   color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-.account-info  {
+.account-info {
   width: 50%;
   margin-left: 30%;
 }
-.a-title p{
+.a-title p {
   width: 70%;
 }
 </style>

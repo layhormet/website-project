@@ -96,4 +96,19 @@ a {
   background-color: #1235a880;
   color: white;
 }
+.dropdown-item:hover{
+  background-color: #3b53a4;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 600;
+  text-align: left;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  color: rgb(255, 255, 255);
+  
+}
+.dropdown-item{
+  color: white;
+}
 </style>

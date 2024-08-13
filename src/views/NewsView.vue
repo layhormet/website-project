@@ -1,21 +1,21 @@
 <template>
   <div class="News">
     <NavBar />
+    <div class="header">
+      <h1 class="head_title">
+        Meet the bank <br />
+        of the future
+      </h1>
+      <p class="head_info">
+        Welcome to the future of banking, where technology and innovation
+        redefine the way we work and live. We're here to help you navigate
+        this exciting new world. Welcome to the future of banking, where
+        technology and innovation redefine the way we work and live. We're
+        here to help you navigate this exciting new world.
+      </p>
+      <button class="btn_start">Get started</button>
+    </div>
     <div class="container">
-      <div class="header">
-        <h1 class="head_title">
-          Meet the bank <br />
-          of the future
-        </h1>
-        <p class="head_info">
-          Welcome to the future of banking, where technology and innovation
-          redefine the way we work and live. We're here to help you navigate
-          this exciting new world. Welcome to the future of banking, where
-          technology and innovation redefine the way we work and live. We're
-          here to help you navigate this exciting new world.
-        </p>
-        <button class="btn_start">Get started</button>
-      </div>
       <div class="middle">
         <div class="mid_top">
           <h2 class="mid_title">News</h2>
@@ -24,7 +24,7 @@
             emerging businesses. We specialize in crafting captivating online
             identities. A dynamic startup agency, is dedicated to fueling the
             aspirations of emerging businesses. We specialize in crafting
-            captivating online identities
+            captivating online identities.
           </p>
         </div>
         <div class="mid_middle">
@@ -38,7 +38,8 @@
                 { active: currentSlide === index },
               ]"
               @click="setActiveSlide(index)"
-            >
+              >
+
               <div class="detail">
                 <img src="@/assets/image/row_up.png" alt="row_up" />
               </div>
@@ -58,10 +59,11 @@
     <Footer></Footer>
   </div>
 </template>
+
 <script>
-// @ is an alias to /src
 import NavBar from "@/components/NavBar.vue";
 import Footer from "@/components/FooTer.vue";
+
 export default {
   components: {
     NavBar,
@@ -99,43 +101,43 @@ export default {
       this.currentSlide = index;
     },
     prevSlide() {
-      if (this.currentSlide > 0) {
-        this.currentSlide--;
-      } else {
-        this.currentSlide = this.slides.length - 1;
-      }
+      this.currentSlide =
+        this.currentSlide > 0
+          ? this.currentSlide - 1
+          : this.slides.length - 1;
     },
     nextSlide() {
-      if (this.currentSlide < this.slides.length - 1) {
-        this.currentSlide++;
-      } else {
-        this.currentSlide = 0;
-      }
+      this.currentSlide =
+        this.currentSlide < this.slides.length - 1
+          ? this.currentSlide + 1
+          : 0;
     },
   },
 };
 </script>
+
 <style scoped>
-.News{
+.News {
   display: flex;
   flex-direction: column;
   background-color: #f8f7f5;
 }
+
 .container {
   display: flex;
   flex-direction: column;
-  padding:1px;
+  padding: 1px;
   margin: 0;
 }
 
 .header {
   background-image: url("@/assets/news/head_bg.png");
-  width: 208vh;
-  height: 650px;
-  margin-top: 90px;
-  background-size: cover;
-  background-repeat: no-repeat;
+  width: 100%;
+  height: 640px;
+  margin-top: 70px;
   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   padding: 10% 8%;
@@ -143,10 +145,10 @@ export default {
   box-shadow: inset 0 0 205px rgba(0, 0, 0, 0.899); /* shadow inside */
 }
 
-
 .head_title {
   font-size: 50px;
 }
+
 .head_info {
   font-size: 20px;
   margin-top: 20px;
@@ -154,14 +156,15 @@ export default {
   justify-content: center;
   align-items: center;
   display: flex;
-  max-width: 500px;
-  height: 150px;
-  padding-top: 15px;
+  max-width: 490px;
+  height: 200px;
+  padding-top: 25px;
   overflow-y: auto;
   scrollbar-width: none;
   -ms-overflow-style: none;
   overflow-x: hidden;
 }
+
 .btn_start {
   background-color: #3a358f;
   color: white;
@@ -173,18 +176,22 @@ export default {
   margin-top: 20px;
   transition: background-color 0.3s ease;
 }
+
 .btn_start:hover {
   background-color: #041178;
 }
+
 .middle {
   display: flex;
   flex-direction: column;
   padding: 50px;
 }
+
 .mid_top {
   display: flex;
   flex-direction: column;
 }
+
 .mid_info {
   font-size: 20px;
   margin-top: 20px;
@@ -194,24 +201,36 @@ export default {
   display: flex;
   max-width: 80%;
 }
+
 .mid_middle {
   display: flex;
   flex-direction: column;
   margin-top: 50px;
 }
+
 .slider {
   margin: 5%;
   display: flex;
   width: 100%;
-  height: 500px;
-  gap: 4rem;
-  position: relative;
+  height: auto;
+  padding: 30px;
+  border-radius: 40px;
+  gap: 2rem;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+.slider::-webkit-scrollbar {
+  display: none;
 }
 
 .slide {
-  height: 300px;
-  width: 30%;
+  flex: 0 0 auto;
+  height: 500px;
+  width: 500px;
+  gap: 4rem;
   border-radius: 30px;
+  margin: 10px;
   display: flex;
   flex-direction: column;
   background-size: cover;
@@ -219,33 +238,11 @@ export default {
   transition: transform 0.5s ease, filter 0.5s ease;
   cursor: pointer;
   box-shadow: inset 0 -200px 50px -20px rgba(0, 0, 0, 0.651); /* shadow inside */
-
-}
-.detail {
-  width: 40px;
-  height: 40px;
-  border-radius: 100%;
-  margin-top: 30px;
-  margin-left: 80%;
-  display: flex;
-  background-color: rgba(200, 198, 198, 0.581);
-  justify-content: center;
-}
-.detail > img {
-  width: 20px;
-  height: 20px;
-  margin-top: 8px;
-  right: 0;
-  display: flex;
-}
-.detail > img:hover{
-  transform: scale(1.1);
-  filter: brightness(1.3);
 }
 .slide1 {
   background-image: url("@/assets/news/slide1.png");
   height: 500px;
-  width: 480px;
+  width: 50%;
   border-radius: 30px;
   background-size: cover;
   background-position: center;
@@ -260,7 +257,7 @@ export default {
 .slide2 {
   background-image: url("@/assets/news/slide2.png");
   height: 500px;
-  width: 480px;
+  width: 50%;
   border-radius: 30px;
   background-size: cover;
   background-position: center;
@@ -274,7 +271,7 @@ export default {
 .slide3 {
   background-image: url("@/assets/news/slide3.png");
   height: 500px;
-  width: 480px;
+  width: 50%;
   border-radius: 30px;
   background-size: cover;
   background-position: center;
@@ -288,7 +285,7 @@ export default {
 .slide4 {
   background-image: url("@/assets/news/slide1.png");
   height: 500px;
-  width: 480px;
+  width: 50%;
   border-radius: 30px;
   background-size: cover;
   background-position: center;
@@ -298,6 +295,36 @@ export default {
   align-items: center;
   transition: background-color 0.3s ease;
   color: white;
+}
+
+.detail {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  margin-top: 10px;
+  margin-right:10px;
+  align-self: end;
+  justify-self: start;
+  top: 3px;
+  right: 0;
+  display: flex;
+  background-color: rgba(114, 111, 111, 0.581);
+  justify-content: center;
+}
+
+.detail > img {
+  width: 15px;
+  height: 15px;
+  margin-top: 12px;
+  right: 0;
+  
+  display: flex;
+}
+
+.detail > img:hover {
+  transform: scale(1.1);
+  filter: brightness(1.3);
+  color: white
 }
 
 .slide_info {
@@ -311,42 +338,75 @@ export default {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  margin-top: 46%;
+  margin-top: auto;
   border-radius: 0 0 30px 30px;
-  padding: 20px;
+  padding: 10px;
   transition: background-color 0.3s ease;
 }
 
 .active {
-  transform: scale(1.2);
+  transform: scale(1.1);
   filter: blur(0);
-  height: 500px;
-  width: 100%;
 }
 
 .slide:not(.active) {
   filter: blur(5px);
-  opacity: 0.5;
+  opacity: 0.3;
 }
 
 /* mid_bottom */
-.mid_bottom{
+.mid_bottom {
   display: flex;
   text-align: center;
   align-items: center;
   justify-content: center;
+  margin-left: 20%;
   cursor: pointer;
   gap: 4rem;
   margin-top: 5%;
-  margin-left: 20%;
 }
 
-.mid_bottom img{
+.mid_bottom img {
   width: 40px;
   height: 40px;
 }
-.mid_bottom img:hover{
+
+.mid_bottom img:hover {
   transform: scale(1.2);
   transition: transform 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0;
+    margin: 0;
+  }
+  .header {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    padding: 20px;
+    background-size: contain;
+    background-position: center;
+  }
+  .head_info {
+    font-size: 16px;
+    line-height: 1.5;
+    max-width: 300px;
+    height: 100px;
+    padding: 10px;
+    overflow-y: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    overflow-x: hidden;
+  }
+  .slide {
+    width: 200px;
+    height: 200px;
+  }
+  .active {
+    width: 300px;
+    height: 300px;
+  }
 }
 </style>
