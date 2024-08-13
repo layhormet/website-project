@@ -116,17 +116,23 @@ export default {
 };
 </script>
 <style scoped>
+.News{
+  display: flex;
+  flex-direction: column;
+  background-color: #f8f7f5;
+}
 .container {
   display: flex;
   flex-direction: column;
-  padding: 1px;
+  padding:1px;
   margin: 0;
 }
 
 .header {
   background-image: url("@/assets/news/head_bg.png");
-  width: 191.9vh;
+  width: 208vh;
   height: 650px;
+  margin-top: 90px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

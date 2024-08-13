@@ -1,6 +1,6 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light">
-    <div class="container-fluid px-5 py-2">
+    <div class="container-fluid ">
       <h1
         style="
           font-size: 40px;
@@ -16,15 +16,15 @@
       <ul>
         <li><router-link to="/">Home</router-link></li>
         <li><router-link to="/about">About Us</router-link></li>
-        <!-- <li><router-link to="/service">Servic</router-link></li> -->
         <li>
           <div class="dropdown">
             <a class="nav-link dropdown-toggle" href="/service" id="serviceDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Service
             </a>
             <ul class="dropdown-menu" aria-labelledby="serviceDropdown">
-              <li><a class="dropdown-item" href="#">Card</a></li>
-              <li><a class="dropdown-item" href="#">Current Account</a></li>
+              <li><a class="dropdown-item" href="/service">Service</a></li>
+              <li><a class="dropdown-item" href="/LSWallet">Card</a></li>
+              <li><a class="dropdown-item" href="/currentaccount">Current Account</a></li>
             </ul>
           </div>
         </li>
@@ -60,7 +60,6 @@ export default {
 
 <style scoped>
 .navbar{
-  /* padding: 20px 0; */
   position: fixed;
   top: 0;
   width: 100%;
@@ -94,7 +93,7 @@ a {
 
 .dropdown-menu {
   min-width: 200px;
-  background-color: #1235a8;
+  background-color: #1235a880;
   color: white;
 }
 </style>

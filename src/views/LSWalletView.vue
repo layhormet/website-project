@@ -203,10 +203,14 @@ export default {
 
 <style scoped>
 /* ============Header============ */
-
+.LS-Wallet{
+  padding-top: 50px;
+  background-color: #f8f7f5;
+}
 .header {
   display: flex;
   flex-direction: column;
+  margin-top: 60px;
 }
 .card_promote {
   margin: 2% 8% 8%;
