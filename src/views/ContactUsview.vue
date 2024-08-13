@@ -1,12 +1,15 @@
 <template>
   <NavBar />
   <div class="contact-us-page" style="background-color: #f8f7f5">
-    <div class="contact" style="padding-left: 30px; margin: 20px">
-      <div class="ps-5 py-3">
-        <div class="bg-background" style="margin-left: 60px">
+    <div class="contact" style="margin: 20px">
+      <div class="py-3">
+        <div
+          class="bg-background"
+          style="display: flex; justify-content: center; margin-top: 100px"
+          >
           <img src="../assets/contact/background.png" alt="" />
         </div>
-        <div class="form-contact d-flex" style="margin: 0px; flex-wrap: wrap">
+        <div class="form-contact d-flex" style="margin: 0px">
           <form
             class="row g-3"
             style="
@@ -14,6 +17,7 @@
               width: 45%;
               padding: 30px;
               margin-top: 50px;
+              margin-left: 30px;
               border-radius: 20px;
               border: 1px solid #3b53a4;
             "
@@ -76,77 +80,82 @@
               </button>
             </div>
           </form>
-          <div
-            class="container"
-            style="
-              background-color: black;
-              padding: 20px;
-              width: 50%;
-              height: 300%;
-              margin-right: -20px;
-              margin-top: 50px;
-              border-top-left-radius: 30px;
-              border-bottom-left-radius: 100px;
-            "
-          >
-            <div class="card-custom d-flex" style="margin-left: 50px">
-              <img src="../assets/contact/image 17.png" alt="Building" />
-              <div style="color: white; margin-left: 50px">
-                <h5>New York</h5>
-                <p class="card-text">123 Cherry Lane,<br />NY, 10000</p>
-                <p class="card-text">Hello@yourbank.com</p>
+          <div class="country_card" style="width: 50%;">
+            <div
+              class="container"
+              style="
+                background-color: black;
+                padding: 20px;
+                width: 100%;
+                height: 200px;
+                margin-right: -70px;
+                margin-top: 50px;
+                border-top-left-radius: 30px;
+                border-bottom-left-radius: 100px;
+              "
+            >
+              <div class="card-custom d-flex" style="margin-left: 50px">
+                <img src="../assets/contact/image 17.png" alt="Building" />
+                <div style="color: white; margin-left: 50px">
+                  <h5>New York1</h5>
+                  <p class="card-text">123 Cherry Lane,<br />NY, 10000</p>
+                  <p class="card-text">Hello@yourbank.com</p>
+                </div>
               </div>
             </div>
-          </div>
-          <div
-            class="container"
-            style="
-              background-color: black;
-              padding: 20px;
-              width: 50%;
-              height: 300%;
-              margin-right: -20px;
-              margin-top: -280px;
-              border-top-left-radius: 30px;
-              border-bottom-left-radius: 100px;
-            "
-          >
-            <div class="card-custom d-flex" style="margin-left: 50px">
-              <img src="../assets/contact/image 17.png" alt="Building" />
-              <div style="color: white; margin-left: 50px">
-                <h5>New York</h5>
-                <p class="card-text">123 Cherry Lane,<br />NY, 10000</p>
-                <p class="card-text">Hello@yourbank.com</p>
+            <div
+              class="container"
+              style="
+                background-color: black;
+                padding: 20px;
+                width: 100%;
+                height: 200px;
+                margin-right: -70px;
+                margin-top: 20px;
+                border-top-left-radius: 30px;
+                border-bottom-left-radius: 100px;
+              "
+            >
+              <div class="card-custom d-flex" style="margin-left: 50px">
+                <img src="../assets/contact/image 17.png" alt="Building" />
+                <div style="color: white; margin-left: 50px">
+                  <h5>New York2</h5>
+                  <p class="card-text">123 Cherry Lane,<br />NY, 10000</p>
+                  <p class="card-text">Hello@yourbank.com</p>
+                </div>
               </div>
             </div>
-          </div>
-          <div
-            class="container"
-            style="
-              background-color: black;
-              padding: 20px;
-              width: 50%;
-              height: 300%;
-              margin-right: 0;
-              margin-top: -60px;
-              margin-right: 28px;
-              border-top-left-radius: 30px;
-              border-bottom-left-radius: 100px;
-            "
-          >
-            <div class="card-custom d-flex" style="margin-left: 50px">
-              <img src="../assets/contact/image 17.png" alt="Building" />
-              <div style="color: white; margin-left: 50px">
-                <h5>New York</h5>
-                <p class="card-text">123 Cherry Lane,<br />NY, 10000</p>
-                <p class="card-text">Hello@yourbank.com</p>
+            <div
+              class="container"
+              style="
+                background-color: black;
+                padding: 20px;
+                width: 100%;
+                height: 200px;
+                margin-right: -70px;
+                margin-top: 20px;
+                border-top-left-radius: 30px;
+                border-bottom-left-radius: 100px;
+              "
+            >
+              <div class="card-custom d-flex" style="margin-left: 50px">
+                <img src="../assets/contact/image 17.png" alt="Building" />
+                <div style="color: white; margin-left: 50px">
+                  <h5>New York3</h5>
+                  <p class="card-text">123 Cherry Lane,<br />NY, 10000</p>
+                  <p class="card-text">Hello@yourbank.com</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
         <div
           class="hard-office d-flex"
-          style="margin-top: 200px; justify-content: space-between"
+          style="
+            margin-top: 200px;
+            justify-content: space-between;
+            padding-left: 30px;
+          "
         >
           <div class="office-info" style="width: 40%">
             <h1>
@@ -192,7 +201,7 @@
           >
             Frequently Asked Questions
           </h1>
-          <div class="asking-side">
+          <div class="asking-side" style="padding-left: 30px;">
             <div class="ask-img">
               <img src="../assets/contact/image 19.png" alt="" />
             </div>
@@ -210,7 +219,7 @@
                   >
                 </div>
               </div>
-              <hr>
+              <hr />
               <div class="dropdown2">
                 <div class="dropdown-qa">
                   <h4 class="dropbtn">How do I sign up for an account ?</h4>
@@ -224,7 +233,7 @@
                   >
                 </div>
               </div>
-              <hr>
+              <hr />
               <div class="dropdown3">
                 <div class="dropdown-qa">
                   <h4 class="dropbtn">How do I sign up for an account ?</h4>
@@ -238,7 +247,7 @@
                   >
                 </div>
               </div>
-              <hr>
+              <hr />
               <div class="dropdown4">
                 <div class="dropdown-qa">
                   <h4 class="dropbtn">How do I sign up for an account ?</h4>
@@ -252,7 +261,7 @@
                   >
                 </div>
               </div>
-              <hr>
+              <hr />
               <div class="dropdown5">
                 <div class="dropdown-qa">
                   <h4 class="dropbtn">How do I sign up for an account ?</h4>
@@ -313,12 +322,12 @@ label {
 .asking-side {
   display: flex;
 }
-.dropdown{
+.dropdown {
   display: flex;
   flex-direction: column;
   margin: 50px;
 }
-.dropdown-qa{
+.dropdown-qa {
   display: flex;
   justify-content: space-between;
 }

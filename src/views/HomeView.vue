@@ -43,13 +43,13 @@
                   Get Started
                 </button>
               </div>
-              <div class="button">
+              <div class="button" style="margin-left: 10px;">
                 <button
                   type="button"
                   class="btn btn-primary"
                   style="border-radius: 32px; background-color: black"
                 >
-                  Get Started
+                  Contact Us
                 </button>
               </div>
             </div>

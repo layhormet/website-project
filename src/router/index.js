@@ -7,6 +7,7 @@ import SelfBankingView from '@/views/SelfBankingView.vue'
 import PromotionView from '@/views/PromotionView.vue'
 import NewsView from '@/views/NewsView.vue'
 import ContactUsView from '@/views/ContactUsview.vue'
+import CurrentAccountView from '@/views/CurrentAccountView.vue'
 
 const routes = [
   {
@@ -50,6 +51,12 @@ const routes = [
     component: ContactUsView
 
   },
+  {
+    path: '/currentaccount',
+    name: 'currentaccount',
+    component: CurrentAccountView
+
+  }
   
 ]
 

@@ -630,6 +630,10 @@ export default {
 </script>
 
 <style scoped>
+.about{
+  background-color: #f8f7f5;
+  padding-top: 50px;
+}
 .banner {
   background-image: url("@/assets/image/about.png");
   background-color: black;
@@ -638,7 +642,7 @@ export default {
   border-radius: 50px;
   background-position: center;
   padding: 10rem 0;
-  margin-top: 50px;
+  margin-top: 100px;
 }
 .history {
   padding: 5rem 0;

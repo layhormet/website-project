@@ -2,7 +2,7 @@
   <NavBar />
   <div class="all-service" style="background-color: #f8f7f5">
     <div class="service-page" style="padding-left: 50px">
-      <div class="ps-5 py-5">
+      <div class="ps-5 py-5" style="margin-top: 60px;">
         <h1>Our Loans</h1>
         <div class="service-description">
           <p>
@@ -86,7 +86,7 @@
         <div class="row" style="justify-content: center">
           <div
             class="micro-card col-lg-8 mb-4"
-            style="max-width: 800px; margin-left: -90px"
+            style="max-width: 900px; margin-left: -200px"
           >
             <div class="card-content">
               <div
@@ -101,10 +101,10 @@
                 eiusmod Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod Lorem ipsum dolor sit amet, consectetur.
               </p>
-              <img src="../assets/service/5-img.png" alt="Image" />
+              <img src="../assets/service/5-img.png" alt="Image" style="width: 100%;"/>
             </div>
           </div>
-          <div class="micro-card col-lg-4 mb-4" style="max-width: 450px">
+          <div class="micro-card col-lg-4 mb-4" style="max-width: 500px">
             <div class="card-content">
               <div
                 class="card-header"
