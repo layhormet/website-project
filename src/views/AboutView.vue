@@ -750,6 +750,7 @@ export default {
 .card > img {
   width: 260px;
   height: 190px;
+  border-radius: 20px;
 }
 
 .card-content {
