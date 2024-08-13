@@ -10,142 +10,130 @@
             border-radius: 32px;
             width: 1318px;
             height: 720px;
+            margin-top: 150px;
           "
         >
-          <div class="title">
-            <h1
-              style="
-                font-size: 64px;
-                font-weight: 700;
-                line-height: 77.45px;
-                text-align: left;
-              "
-            >
-              Smart Finance <br />
-              Solutions for Your <br />
-              Business
-            </h1>
-          </div>
-          <div class="content">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit,
-              quod. Odio nisi laboriosam, <br />
-              expedita itaque iste corrupti eum voluptates?Nostrum quas <br />
-              maxime soluta molestias dolorum earum eos deserunt qui architecto.
-            </p>
-          </div>
-          <div class="button-container">
-            <div class="button">
-              <button
-                type="button"
-                class="btn"
-                style="border-radius: 32px; background-color: #3b53a4"
+          <div class="home-title d-flex">
+            <div class="title">
+              <h1
+                style="
+                  font-size: 64px;
+                  font-weight: 700;
+                  line-height: 77.45px;
+                  text-align: left;
+                "
               >
-                Get Started
-              </button>
-            </div>
-            <div class="button">
-              <button
-                type="button"
-                class="btn btn-primary"
-                style="border-radius: 32px; background-color: black"
-              >
-                Get Started
-              </button>
-            </div> 
-          </div>
-          <!-- <div class="news-card2" style="margin-right: 10px; background-color:green;">
-              <div class="card-1">
-                <div class="news-card-content">
-                  <h1 class="news-card-title">Credit card payments</h1>
-                  <hr/>
-                  <p class="news-card-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod Lorem ipsum dolor sit amet.
-                  </p>
-                </div>
+                Smart Finance <br />
+                Solutions for Your <br />
+                Business
+              </h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit,
+                quod. Odio nisi laboriosam, <br />
+                expedita itaque iste corrupti eum voluptates?Nostrum quas <br />
+                maxime soluta molestias dolorum earum eos deserunt qui
+                architecto.
+              </p>
+              <div class="button">
+                <button
+                  type="button"
+                  class="btn"
+                  style="border-radius: 32px; background-color: #3b53a4"
+                >
+                  Get Started
+                </button>
               </div>
-            </div> -->
+              <div class="button">
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  style="border-radius: 32px; background-color: black"
+                >
+                  Get Started
+                </button>
+              </div>
+            </div>
+            <div class="image" style="margin-left: 150px">
+              <img src="../assets/image/Frame 9.png" alt="" />
+            </div>
+          </div>
         </div>
-        <div class="linner" style="margin: 80px 150px;">
-          <hr>
+        <div class="linner" style="margin: 80px 150px">
+          <hr />
         </div>
         <div class="banking-services">
-          <h2> Our Banking <br/>Services</h2><br>
+          <h2>Our Banking <br />Services</h2>
+          <br />
           <!-- <a href="">View All Services</a> -->
           <div class="services">
-          <div class="service">
-            <div class="service-content">
-              <div class="icon" style="margin-bottom: 15px">
-                <img
-                  src="https://cdn4.iconfinder.com/data/icons/banking-service/32/bank_services_approved-256.png"
-                  alt="Mobile Banking Icon"
-                />
+            <div class="service">
+              <div class="service-content">
+                <div class="icon" style="margin-bottom: 15px">
+                  <img
+                    src="https://cdn4.iconfinder.com/data/icons/banking-service/32/bank_services_approved-256.png"
+                    alt="Mobile Banking Icon"
+                  />
+                </div>
+                <h3>Mobile Banking</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <a href="#" class="arrow-link">&rarr;</a>
               </div>
-              <h3>Mobile Banking</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
-              <a href="#" class="arrow-link">&rarr;</a>
+            </div>
+            <div class="service">
+              <div class="service-content">
+                <div class="icon" style="margin-bottom: 15px">
+                  <img
+                    src="https://cdn4.iconfinder.com/data/icons/banking-service/32/bank_services_approved-256.png"
+                    alt="Saving Account Icon"
+                  />
+                </div>
+                <h3>Saving Account</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <a href="#" class="arrow-link">&rarr;</a>
+              </div>
+            </div>
+            <div class="service">
+              <div class="service-content">
+                <div class="icon" style="margin-bottom: 15px">
+                  <img
+                    src="https://cdn4.iconfinder.com/data/icons/banking-service/32/bank_services_approved-256.png"
+                    alt="Deposit Icon"
+                  />
+                </div>
+                <h3>Deposit</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <a href="#" class="arrow-link">&rarr;</a>
+              </div>
+            </div>
+            <div class="service">
+              <div class="service-content">
+                <div class="icon" style="margin-bottom: 15px">
+                  <img
+                    src="https://cdn4.iconfinder.com/data/icons/banking-service/32/bank_services_approved-256.png"
+                    alt="Business Loans Icon"
+                  />
+                </div>
+                <h3>Business Loans</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <a href="#" class="arrow-link">&rarr;</a>
+              </div>
             </div>
           </div>
-          <div class="service">
-            <div class="service-content">
-              <div class="icon" style="margin-bottom: 15px">
-                <img
-                  src="https://cdn4.iconfinder.com/data/icons/banking-service/32/bank_services_approved-256.png"
-                  alt="Saving Account Icon"
-                />
-              </div>
-              <h3>Saving Account</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
-              <a href="#" class="arrow-link">&rarr;</a>
-            </div>
-          </div>
-          <div class="service">
-            <div class="service-content">
-              <div class="icon" style="margin-bottom: 15px">
-                <img
-                  src="https://cdn4.iconfinder.com/data/icons/banking-service/32/bank_services_approved-256.png"
-                  alt="Deposit Icon"
-                />
-              </div>
-              <h3>Deposit</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
-              <a href="#" class="arrow-link">&rarr;</a>
-            </div>
-          </div>
-          <div class="service">
-            <div class="service-content">
-              <div class="icon" style="margin-bottom: 15px">
-                <img
-                  src="https://cdn4.iconfinder.com/data/icons/banking-service/32/bank_services_approved-256.png"
-                  alt="Business Loans Icon"
-                />
-              </div>
-              <h3>Business Loans</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
-              <a href="#" class="arrow-link">&rarr;</a>
-            </div>
-          </div>
-        </div>
-        
         </div>
         <div class="future-banking" style="display: flex">
-          <div
-            class="phone-img"
-            style="margin-left: 100px; margin-top: 20px;"
-          >
+          <div class="phone-img" style="margin-left: 100px; margin-top: 20px">
             <img src="../assets/image/phone.png" alt="" />
           </div>
           <div
@@ -234,7 +222,6 @@ export default {
 };
 </script>
 <style>
-
 .title {
   display: flex;
   flex-wrap: wrap;
@@ -267,7 +254,7 @@ export default {
   margin: auto;
   margin-left: 90px;
 }
-.banking-services h2{
+.banking-services h2 {
   font-size: 48px;
 }
 .services {

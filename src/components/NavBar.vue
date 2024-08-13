@@ -59,6 +59,13 @@ export default {
 </script>
 
 <style scoped>
+.navbar{
+  /* padding: 20px 0; */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
 nav {
   background: #ffffff;
 }
