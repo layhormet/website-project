@@ -193,6 +193,25 @@
               /></a>
             </div>
           </div>
+          <div class="card">
+            <img class="activator" src="@/assets/image/mavy.png" alt="mavy" />
+            <div class="card-content">
+              <h4 class="card-title">Mavy Prestly</h4>
+              <p>Chief Executive Officer</p>
+              <hr />
+            </div>
+            <div class="social">
+              <a href="#"
+                ><img src="@/assets/image/facebook.png" alt="facebook"
+              /></a>
+              <a href="#"
+                ><img src="@/assets/image/linkedin.png" alt="linkedIn"
+              /></a>
+              <a href="#"
+                ><img src="@/assets/image/telegram.png" alt="telegram"
+              /></a>
+            </div>
+          </div>
         </div>
       </div>
       <div class="management_team">
@@ -551,15 +570,20 @@
 
       <div class="annual_Reports">
         <div class="annual_Reports_top">
-          <h1>Annual Reports</h1>
-          <p class="report_text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
-            consectetur voluptatibus, quidem quo eveniet molestiae
-            necessitatibus itaque quas. Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Eius, earum! Perferendis saepe labore veritatis
-            aliquid iste! Nam quidem labore ducimus reprehenderit quia officiis
-            perferendis nihil delectus. Iusto itaque omnis facilis!
-          </p>
+          <div class="annual_report_top_left">
+            <h1>Annual Reports</h1>
+            <p class="report_text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
+              consectetur voluptatibus, quidem quo eveniet molestiae
+              necessitatibus itaque quas. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Eius, earum! Perferendis saepe labore veritatis
+              aliquid iste! Nam quidem labore ducimus reprehenderit quia officiis
+              perferendis nihil delectus. Iusto itaque omnis facilis!
+            </p>
+          </div>
+          <div class="annual_report_top_right">
+            <img src="@/assets/image/Vector.png" alt="Vector" />
+          </div>
         </div>
         <div class="annual_Reports_mid">
           <div class="card_annual">
@@ -614,6 +638,7 @@ export default {
   border-radius: 50px;
   background-position: center;
   padding: 10rem 0;
+  margin-top: 50px;
 }
 .history {
   padding: 5rem 0;
@@ -681,7 +706,7 @@ export default {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   width: 100%;
-  margin-top: 5%;
+  margin-top: 10%;
   gap: 1rem;
 }
 .board_left {
@@ -689,11 +714,12 @@ export default {
   flex-direction: column;
   justify-content: center;
   background-color: #000000;
-  width: 90%;
+  width: 100%;
   border-radius: 0 50px 50px 0;
   height: 450px;
-  padding: 4rem;
+  padding: 7rem;
   gap: 1rem;
+  margin-left: -112px;
 }
 .board_left_title {
   margin-left: 5px;
@@ -709,19 +735,21 @@ export default {
 .view_members img {
   width: 35px;
 }
+.slide{
+  display: flex;
+  gap: 1rem;
+}
 .slide img {
   margin-left: 5px;
   width: 30px;
   cursor: pointer;
-}
-.slide img {
   margin-bottom: 30px;
 }
 .board_right {
   display: flex;
   margin-left: -50%;
-  margin-top: 50px;
-  height: 350px;
+  margin-top: 40px;
+  height: 370px;
   width: auto;
   overflow-x: scroll;
   border-left: 1px solid white;
@@ -741,40 +769,58 @@ export default {
   align-items: center;
   justify-content: center;
   margin: 0;
-  padding: 20px;
-  height: 350px;
+  height: 370px;
   width: 280px;
   flex-shrink: 0;
+  border-radius: 20px;
 }
 
 .card > img {
   width: 260px;
-  height: 190px;
+  height: 170px;
+  margin-top: 10px;
   border-radius: 20px;
 }
 
 .card-content {
   display: flex;
   text-align: center;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
-  margin-top: 5px;
 }
+.card-content > p {
+  width: 250px;
+  height: 50px;
+  justify-content: center;
+  display: flex;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 
+  /* For Chrome, Safari, and Edge */
+  &::-webkit-scrollbar {
+    width: 0;
+    height: 20px;
+  }
+}
+.card-content > hr{
+  margin-top: -10px;
+  width: 250px;
+}
 .card-title {
   font-size: 18px;
-  text-align: center;
-  align-items: center;
 }
 
 .social {
   display: flex;
-  justify-content: space-between;
-  gap: 2rem;
+  gap: 2.5rem;
 }
 
 .social a img {
   width: 30px;
   height: 32px;
+  margin-top: -50px;
+
 }
 
 .read-article {
@@ -889,8 +935,16 @@ export default {
 }
 .annual_Reports_top {
   display: flex;
-  flex-direction: column;
   margin-bottom: 30px;
+}
+.annual_report_top_left{
+  display: flex;
+  flex-direction: column;
+}
+
+.annual_report_top_right > img{
+  display: flex;
+  margin-right: -200px;
 }
 .report_text{
   width: 60%;
