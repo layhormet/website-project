@@ -203,15 +203,30 @@ export default {
 
 <style scoped>
 /* ============Header============ */
-.LS-Wallet{
-  padding-top: 50px;
+.LS-Wallet {
+  padding-top: 40px;
   background-color: #f8f7f5;
+  position: relative;
+  z-index: 1;
 }
+
+.vector_style img {
+  position: absolute;
+  right: 0%;
+  top: 52%;
+  width: 8%;
+  height: 250px;
+  z-index: 2;
+}
+
 .header {
+  position: relative;
   display: flex;
   flex-direction: column;
   margin-top: 60px;
+  z-index: 3;
 }
+
 .card_promote {
   margin: 2% 8% 8%;
   display: flex;
@@ -224,6 +239,7 @@ export default {
   height: 600px;
   overflow: hidden;
   position: relative;
+  z-index: 4; /* Ensure it is above vector image */
 }
 
 .title_header {
@@ -247,6 +263,8 @@ export default {
 
 .btn_top {
   display: flex;
+  align-items: center;
+  cursor: pointer;
   gap: 20px;
 }
 
@@ -308,15 +326,6 @@ export default {
   z-index: 0;
   transform: translateX(-50%);
   border-radius: 20px;
-}
-
-.vector_style img {
-  position: absolute;
-  right: 2%;
-  top: 68%;
-  width: 8%;
-  height: 250px;
-  z-index: -1;
 }
 
 /* cards */
@@ -384,7 +393,7 @@ export default {
 .bank_card4,
 .bank_card5,
 .bank_card6 {
-  background-color: #f7f8fa;
+  background-color: #ffffff;
   padding: 20px;
   border-radius: 20px;
   text-align: left;
@@ -397,6 +406,7 @@ export default {
 .bank_card6 img {
   width: 40px;
   margin-bottom: 10px;
+  cursor: pointer;
 }
 
 .bank_card1 h6,
